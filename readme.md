@@ -10,7 +10,7 @@ __Note:__ When you run the app, if `Android.log` does not exists it will try to 
 
 ## Running instructions:
 
-In order to the test to be fair `node <file.js>` must be ran using the flag `--expose-gc`,
+To be fair, the app `node <file.js>` must be ran using the flag `--expose-gc`,
 so we can use `global.gc()` to do a full garbage collector run before test, so the garbage collector does not run
 in the middle of the tests.
 

@@ -1,6 +1,6 @@
 ## The right tool for the right job. | Part 2 (final): Log classifier in NodeJS ##
 
-This repo contains the full code of my [blog entry](https://code.darkroku12.ovh/1-demystifying-premature-optimization/).
+This repo contains the full code of my [blog entry](http://localhost:58516/7-log-classifier-part-2/).
 
 ## Install instructions:
 

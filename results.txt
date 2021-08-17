@@ -1,0 +1,4 @@
+Benchmarking: Using filestreams | iteration: 1
+** Took: 3730ms | memory: 73.07421875 MB
+Benchmarking: Using files (without streams) | iteration: 1
+** Took: 36406ms | memory: 1028.51953125 MB

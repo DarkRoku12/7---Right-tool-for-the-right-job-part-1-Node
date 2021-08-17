@@ -1,4 +1,4 @@
-## Demystifying Premature Optimization ##
+## The right tool for the right job. | Part 2 (final): Log classifier in NodeJS ##
 
 This repo contains the full code of my [blog entry](https://code.darkroku12.ovh/1-demystifying-premature-optimization/).
 
@@ -28,19 +28,10 @@ The way #2 actually disable the `jit` compiler with the flag `--jitless`.
 
 ## Running samples:
 
-`TABLE_SIZE: 1500000 | SAMPLE_SIZE: 0.667 | ITERATIONS: 4`
-| service version | run 1  | run 2  | run 3  | run 4  |
-|-----------------|--------|--------|--------|--------|
-| v1              | 4915ms | 4690ms | 4668ms | 4608ms |
-| v2              | 3593ms | 3556ms | 3598ms | 3607ms |
-| v3              | 2762ms | 2736ms | 2720ms | 2720ms |
-| v4              | 2515ms | 2457ms | 2479ms | 2479ms |
-| v4.1            | 1578ms | 1530ms | 1533ms | 1541ms |
-| v5              | 1723ms | 1727ms | 1798ms | 1789ms |
-| v6              | 1715ms | 1720ms | 1736ms | 1730ms |
-
-For more samples you can go to `/logs/*` and read the `.txt` files.
-Also you can ran the test by yourself 😊.
+| Method                  | Time    | Memory     |
+|-------------------------|---------|------------|
+| Filestreams             | 3730ms  | 73.07 MB   |
+| Files (without streams) | 36406ms | 1028.51 MB |
 
 ## Author:
 #### Enmanuel Reynoso | DarkRoku12 | enmarey2012@hotmail.com

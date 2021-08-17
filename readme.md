@@ -30,7 +30,7 @@ The way #2 actually disable the `jit` compiler with the flag `--jitless`.
 
 | Method                  | Time    | Memory     |
 |-------------------------|---------|------------|
-| Filestreams             | 3730ms  | 73.07 MB   |
+| File streams            | 3730ms  | 73.07 MB   |
 | Files (without streams) | 36406ms | 1028.51 MB |
 
 ## Author:
